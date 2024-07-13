@@ -111,3 +111,14 @@ body{
     margin-bottom: 10px;
     height: 235px;
 }
+
+#Mathematics{
+    background-color: #0096FF;
+}
+
+#Science{
+    color: #f0ece1 !important;
+    margin-top: 100px;
+    text-align: center;
+    background-color: #d63333;
+}

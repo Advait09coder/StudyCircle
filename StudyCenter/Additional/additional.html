@@ -1,44 +1,386 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../style.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header class="text-gray-600 body-font heading text-center" id="header">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-            <a class="mr-5 hover:text-gray-900 navBTN" href="../index.html">Home</a>
-            <a class="mr-5 hover:text-gray-900 navBTN" href="#subject_list">Subjects</a>
-            <a class="mr-5 hover:text-gray-900 navBTN" href="../about.html">About Us</a>
-          </nav>
-          <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-            <img id="logo" src="../Emperor’s Study Circle (2).png" width="75" height="75">
-            <span class="ml-3 text-xl title"  >Emperor's Study Circle</span>
-          </a>
-          <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-            <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 disBtn">Discord
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </button>
+  <header class="text-gray-600 body-font heading text-center" id="header">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+        <a class="mr-5 hover:text-gray-900 navBTN" href="../index.html">Home</a>
+        <a class="mr-5 hover:text-gray-900 navBTN" href="#subject_list">Subjects</a>
+        <a class="mr-5 hover:text-gray-900 navBTN" href="../about.html">About Us</a>
+      </nav>
+      <a
+        class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+        <img id="logo" src="../Emperor’s Study Circle (2).png" width="75" height="75">
+        <span class="ml-3 text-xl title">Emperor's Study Circle</span>
+      </a>
+      <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+        <button
+          class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 disBtn">Discord
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <br><br>
+  <h1 class="text-center text-4xl text-black">Additional Information</h1>
+  <br>
+  <p class="text-center text-xl text-gray-500">This information basically contains things like Curriculum, Syllabus
+    Provided by CBSE. <br> "Behold, humble denizens and mortal souls! Verily,<br> it is with great magnanimity that we
+    deign to illumine your minds with elucidations derived from <br>the sacred scrolls bestowed upon us by the CBSE.
+    Fear not the labyrinthine complexities of the original text,<br> for we have endeavored to distill its essence into
+    the purest nectar of comprehension, as befitting your station.
+    <br>And let it be said, with the utmost humility, that this elucidation is provided because<br> we know that your
+    intellectual prowess is but a flicker compared to the resplendent wisdom of the great Lord Adolfus.</p>
+
+  <p class="navBTN text-center text-black">Our sources are trusted and are managed by Agents, Assasins of Emperor Ernest
+    Ingle, Emmanuel Rathod and Napoleon Tijare</p>
+  <section id="Science">
+    <h1 class="text-left ml-5 text-5xl ">Science</h1>
+
+    <hr>
+    <br>
+
+    <p class="text-left ml-5">Orginal Doc : <a
+        href="https://cbseacademic.nic.in/web_material/CurriculumMain25/Sec/Science_Sec_2024-25.pdf">Science Scroll
+        CBSE</a></p>
+    <h1 class="text-3xl text-gray">Simplified Version: </h1>
+    <section class=" body-font overflow-hidden">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="-my-8 divide-y-2 divide-gray-100">
+          <div class="py-8 flex flex-wrap md:flex-nowrap">
+            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span class="text-2xl">CHEMISTRY</span>
+              <span class="mt-1 text-m">2024</span>
+            </div>
+            <div class="md:flex-grow">
+              <h2 class="text-3xl text-black mb-2">Chemical Substances-Nature and Behaviour</h2>
+              <br>
+              <p class="leading-relaxed text-xl">CHEMICAL REACTIONS: Chemical equation, Balanced chemical equation,
+                implications of a balanced
+                chemical equation, types of chemical reactions: combination, decomposition, displacement, double
+                displacement, precipitation, endothermic exothermic reactions, oxidation and reduction.
+                <br>
+                ACIDS, BASES & SALTS: Their definitions in terms of furnishing of H+ and OH– ions, General
+                properties, examples and uses, neutralization, concept of pH scale (Definition relating to logarithm
+                not required), importance of pH in everyday life; preparation and uses of Sodium Hydroxide,
+                Bleachingpowder, Baking soda, Washing soda and Plaster of Paris.
+                <br>
+                METALS & NON-METALS: Properties of metals and non-metals; Reactivity series; Formation and
+                properties of ionic compounds; Basic metallurgical processes; Corrosion and its prevention.
+                <br>
+                CARBON COMPOUNDS: Covalent bonding in carbon compounds. Versatile nature of carbon.
+                Homologous series. Nomenclature of carbon compounds containing functional groups (halogens,
+                alcohol, ketones, aldehydes, alkanes and alkynes), difference between saturated hydro carbons and
+                unsaturated hydrocarbons. Chemical properties of carbon compounds (combustion, oxidation,
+                addition and substitution reaction). Ethanol and Ethanoic acid (only properties and uses), soaps and
+                detergents.</p>
+
+            </div>
+          </div>
+          <div class="py-8 flex flex-wrap md:flex-nowrap">
+            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span class="text-2xl">BIOLOGY</span>
+              <span class="mt-1 text-m">2024</span>
+            </div>
+            <div class="md:flex-grow">
+              <h2 class="text-3xl text-black mb-2">The World of Living</h2>
+              <br>
+              <p class="leading-relaxed text-xl">LIFE PROCESSES: ‘Living Being’. Basic concept of nutrition,
+                respiration, transport and excretion in plants
+                and animals.
+                <br>
+                <br>
+                CONTROL AND CO-ORDINATION IN PLANTS AND ANIMALS: Tropic movements in plants; Introduction of plant
+                hormones; Control and co-ordination in animals: Nervous system; Voluntary, involuntary and reflex
+                action; Chemical co-ordination: animal hormones.
+                <br>
+                REPRODUCTION: Reproduction in animals and plants (asexual and sexual) reproductive health - need
+                and methods of family planning. Safe sex vs HIV/AIDS. Child bearing and women’s health.
+                <br>
+                HEREDITY AND EVOLUTION: Heredity; Mendel’s contribution- Laws for inheritance of traits: Sex
+                determination: brief introduction: (topics excluded - evolution; evolution and classification and
+                evolution should not be equated with progress).
+              </p>
+
+            </div>
+          </div>
+          <div class="py-8 flex flex-wrap md:flex-nowrap">
+            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span class="text-2xl">PHYSICS</span>
+              <span class="mt-1 text-m">2024</span>
+            </div>
+            <div class="md:flex-grow">
+              <h2 class="text-3xl text-black mb-2">NATURAL PHENOMENA</h2>
+              <br>
+              <p class="leading-relaxed text-xl">LIGHT REFLECTION AND REFRACTION : Reflection of light by curved
+                surfaces; Images formed by spherical mirrors, centre of curvature,
+                principal axis, principal focus, focal length, mirror formula (Derivation not required),magnification.
+                Refraction; Laws of refraction, refractive index.
+                Refraction of light by spherical lens; Image formed by spherical lenses; Lens formula (Derivation
+                not required); Magnification. Power of a lens.
+                <br>
+                THE HUMAN EYE AND THE COLOURFUL WORLD :
+                Functioning of a lens in human eye, defects of vision and their corrections, applications of
+                spherical mirrors and lenses.
+                Refraction of light through a prism, dispersion of light, scattering of light, applications in dailylife
+                (excluding colour of the sun at sunrise and sunset).
+
+              </p>
+
+            </div>
+          </div>
+          <div class="py-8 flex flex-wrap md:flex-nowrap">
+            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span class="text-2xl">PHYSICS</span>
+              <span class="mt-1 text-m">2024</span>
+            </div>
+            <div class="md:flex-grow">
+              <h2 class="text-3xl text-black mb-2">How Things Work</h2>
+              <br>
+              <p class="leading-relaxed text-xl">ELECTRICITY : Electric current, potential difference and electric
+                current. Ohm’s law; Resistance, Resistivity, Factors
+                on which the resistance of a conductor depends. Series combination of resistors, parallel
+                combination of resistors and its applications in daily life. Heating effect of electric current and its
+                applications in daily life. Electric power, Interrelation between P, V, I and R.
+                <br>
+                MAGNETIC EFFECTS OF ELECTRIC CURRENT : Magnetic field, field lines, field due to a current carrying
+                conductor,
+                field due to current carrying coil or solenoid; Force on current carrying conductor, Fleming’s Left
+                Hand Rule, Direct current. Alternating current: frequency of AC. Advantage of AC over DC.
+                Domestic electric circuits
+
+              </p>
+
+            </div>
+          </div>
+          <div class="py-8 flex flex-wrap md:flex-nowrap">
+            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span class="text-2xl">NATURAL RESOURCES</span>
+              <span class="mt-1 text-m">2024</span>
+            </div>
+            <div class="md:flex-grow">
+              <h2 class="text-3xl text-black mb-2">Natural Resources</h2>
+              <br>
+              <p class="leading-relaxed text-xl">OUR ENVIRONMENT: Eco-system, Environmental problems, Ozone depletion,
+                waste production and
+                their solutions. Biodegradable and non-biodegradable substances.
+
+
+              </p>
+
+            </div>
           </div>
         </div>
-      </header>
-      <br><br>
-      <h1 class="text-center text-4xl text-black">Additional Information</h1>
+      </div>
+      <hr>
+
+      <div class="items-center text-center">
+        <h1 class="mt-5 mb-3 text-3xl">Weightage of Each Unit</h1>
+        <center><img src="Science_paper.png" height="500" width="1000"></center>
+      </div>
+
+    </section>
+    <br>
+    <hr>
+    <br><br>
+    <section id="Mathematics">
+      <h1 class="text-left ml-5 text-5xl ">Mathematics</h1>
+
+      <hr>
       <br>
-      <p class="text-center text-xl text-gray-500">This information basically contains things like Curriculum, Syllabus Provided by CBSE. <br> "Behold, humble denizens and mortal souls! Verily,<br> it is with great magnanimity that we deign to illumine your minds with elucidations derived from <br>the sacred scrolls bestowed upon us by the CBSE. Fear not the labyrinthine complexities of the original text,<br> for we have endeavored to distill its essence into the purest nectar of comprehension, as befitting your station.
-        <br>And let it be said, with the utmost humility, that this elucidation is provided because<br> we know that your intellectual prowess is but a flicker compared to the resplendent wisdom of the great Lord Adolfus.</p>
-      
-      <p class="navBTN text-center text-black">Our sources are trusted and are managed by Agents, Assasins of Emperor Ernest Ingle, Emmanuel Rathod and Napoleon Tijare</p>
-      <section id="Info"><h1 class="text-left ml-5 text-5xl">Science</h1>
-        <p>Orginal Doc : <a href="https://cbseacademic.nic.in/web_material/CurriculumMain25/Sec/Science_Sec_2024-25.pdf">ABOHILDILUYIY</a></p>
+
+      <p class="text-left ml-5">Orginal Doc : <a
+          href="https://cbseacademic.nic.in/web_material/CurriculumMain25/Sec/Science_Sec_2024-25.pdf">Science Scroll
+          CBSE</a></p>
+      <h1 class="text-3xl text-gray">Simplified Version: </h1>
+      <section class=" body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="-my-8 divide-y-2 divide-gray-100">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="text-2xl">NUMBER SYSTEMS </span>
+                <span class="mt-1 text-m">2024</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-3xl text-black mb-2">Real Numbers</h2>
+                <br>
+                <p class="leading-relaxed text-xl">Fundamental Theorem of Arithmetic - statements after reviewing work
+                  done earlier and
+                  after illustrating and motivating through examples, Proofs of irrationality of &#8730; 2, &#8730; 3,
+                  &#8730; 5.</p>
+
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="text-2xl">ALGEBRA</span>
+                <span class="mt-1 text-m">2024</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-3xl text-black mb-2">Algebra</h2>
+                <br>
+                <p class="leading-relaxed text-xl">
+                  1. POLYNOMIALS :
+                  Zeros of a polynomial. Relationship between zeros and coefficients of quadratic
+                  polynomials.
+                  <br>
+                  2. PAIR OF LINEAR EQUATIONS IN TWO VARIABLES :
+                  Pair of linear equations in two variables and graphical method of their
+                  solution, consistency/inconsistency.
+                  Algebraic conditions for number of solutions. Solution of a pair of linear equations in two
+                  variables algebraically - by substitution, by elimination. Simple situational problems.
+                  <br>
+                  3. QUADRATIC EQUATIONS :
+                  Standard form of a quadratic equation ax2 + bx + c = 0, (a ≠ 0). Solutions of quadratic
+                  equations (only real roots) by factorization, and by using quadratic formula. Relationship
+                  between discriminant and nature of roots.
+                  Situational problems based on quadratic equations related to day to day activities to be
+                  incorporated.
+                  <br>
+                  4. ARITHMETIC PROGRESSIONS :
+                  Motivation for studying Arithmetic Progression Derivation of the nth term and sum of the
+                  first n terms of A.P. and their application in solving daily life problems.
+                </p>
+
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="text-2xl">COORDINATE GEOMETRY</span>
+                <span class="mt-1 text-m">2024</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-3xl text-black mb-2">Coordinate Geometry</h2>
+                <br>
+                <p class="leading-relaxed text-xl">COORDINATE GEOMETRY :
+                  Review: Concepts of coordinate geometry, graphs of linear equations. Distance formula.
+                  Section formula (internal division).
+
+                </p>
+
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="text-2xl">GEOMETRY</span>
+                <span class="mt-1 text-m">2024</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-3xl text-black mb-2">How Things Work</h2>
+                <br>
+                <p class="leading-relaxed text-xl">1. TRIANGLES :
+                  Definitions, examples, counter examples of similar triangles.
+                  i. (Prove) If a line is drawn parallel to one side of a triangle to intersect the other two
+                  sides in distinct points, the other two sides are divided in the same ratio.
+                  ii. (Motivate) If a line divides two sides of a triangle in the same ratio, the line is parallel
+                  to the third side.
+                  ii. (Motivate) If in two triangles, the corresponding angles are equal, their corresponding
+                  sides are proportional and the triangles are similar.
+                  iv. (Motivate) If the corresponding sides of two triangles are proportional, their
+                  corresponding angles are equal and the two triangles are similar.
+                  v. (Motivate) If one angle of a triangle is equal to one angle of another triangle and the
+                  sides including these angles are proportional, the two triangles are similar.
+                  <br>
+                  2. CIRCLES :
+                  Tangent to a circle at, point of contact
+                  i. (Prove) The tangent at any point of a circle is perpendicular to the radius through the
+                  point of contact.
+                  ii. (Prove) The lengths of tangents drawn from an external point to a circle are equal
+                </p>
+
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="text-2xl">TRIGONOMETRY</span>
+                <span class="mt-1 text-m">2024</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-3xl text-black mb-2">Trigonometry</h2>
+                <br>
+                <p class="leading-relaxed text-xl">
+                  1. INTRODUCTION TO TRIGONOMETRY :
+                  Trigonometric ratios of an acute angle of a right-angled triangle. Proof of their
+                  existence (well defined); motivate the ratios whichever are defined at 0o and 90o. Values
+                  of the trigonometric ratios of 300
+                  , 450
+                  and 600
+                  . Relationships between the ratios.
+                  <br>
+                  2. TRIGONOMETRIC IDENTITIES :
+                  Proof and applications of the identity sin2A + cos2A = 1. Only simple identities to be
+                  given.
+                  <br>
+                  3. HEIGHTS AND DISTANCES : Angle of elevation, Angle of Depression.
+                  Simple problems on heights and distances. Problems should not involve more than two
+                </p>
+
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="text-2xl">MENSURATION</span>
+                <span class="mt-1 text-m">2024</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-3xl text-black mb-2">Mensuration</h2>
+                <br>
+                <p class="leading-relaxed text-xl">
+                  1. AREAS RELATED TO CIRCLES : 
+                  Area of sectors and segments of a circle. Problems based on areas and perimeter /
+                  circumference of the above said plane figures. (In calculating area of segment of a
+                  circle, problems should be restricted to central angle of 60°, 90° and 120° only.)
+                  <br>
+                  2. SURFACE AREAS AND VOLUMES : 
+                  Surface areas and volumes of combinations of any two of the following: cubes, cuboids,
+                  spheres, hemispheres and right circular cylinders/cones.
+                </p>
+
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="text-2xl">STATISTICS AND PROBABILITY </span>
+                <span class="mt-1 text-m">2024</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-3xl text-black mb-2">Statistics and Probability</h2>
+                <br>
+                <p class="leading-relaxed text-xl">
+                  1. STATISTICS :
+                  Mean, median and mode of grouped data (bimodal situation to be avoided).
+                  <br>
+                  2. PROBABILITY :
+                  Classical definition of probability. Simple problems on finding the probability of an event.
+                  
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+        <div class="items-center text-center">
+          <h1 class="mt-5 mb-3 text-3xl">Weightage of Each Unit</h1>
+          <center><img src="Math_paper.png" height="500" width="1000"></center>
+        </div>
+
       </section>
-    </body>   
-    </html> 
+</body>
+
+</html>
