@@ -116,7 +116,10 @@ body{
         height: 260px;
         line-height: 20px;
     }
-    
+    #info  {
+        width: 100%;
+        line-height: 16px;
+    }
 }
 .sub_box_var{
     background-color: 	#008170;
@@ -140,4 +143,8 @@ body{
     margin-top: 100px;
     text-align: center;
     background-color: #232d3f;
+}
+
+#English{
+    background-color: rgb(17 94 89);
 }
