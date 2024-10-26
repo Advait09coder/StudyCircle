@@ -50,7 +50,7 @@ body{
 
 .normBTN{
     margin-bottom: 20px;
-    background-color: #001428 !important;
+    background-color: #000000 !important;
 }
 
 .sub_title{
@@ -101,26 +101,7 @@ body{
     margin-right: 30px;
     border-radius: 1%;
 }
-@media only screen and (max-device-width: 480px) {
-    .sub_box{
-        width: 100%;
-        height: 260px;
-        line-height: 4px;
-    }
-    #header{
-        text-align: center;
-        align-self: center;
-    }
-    .sub_box_var{
-        width: 100%;
-        height: 260px;
-        line-height: 20px;
-    }
-    #info  {
-        width: 100%;
-        line-height: 16px;
-    }
-}
+
 .sub_box_var{
     background-color: 	#008170;
     margin: auto;
@@ -147,4 +128,71 @@ body{
 
 #English{
     background-color: rgb(17 94 89);
+}
+
+.sub_heading_main{
+    color: white;
+    font-family: 'Inconsolata';
+    font-weight: bold;
+    padding: 50px;
+}
+
+.question{
+    text-align: left;
+    font-size: 30px;
+    margin: 40px;
+    color: azure;
+    font-family: 'Inconsolata';
+}
+
+.answer{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: 40px;
+    color:white;
+    font-family: 'Inconsolata';
+}
+
+@media only screen and (max-device-width: 480px) {
+    .sub_box{
+        width: 100%;
+        height: 260px;
+        line-height: 4px;
+    }
+    #header{
+        text-align: center;
+        align-self: center;
+    }
+    .sub_box_var{
+        width: 100%;
+        height: 260px;
+        line-height: 20px;
+    }
+    #info  {
+        width: 100%;
+        line-height: 16px;
+    }
+
+    .question{
+        width: 100%;
+        font-size: 28px;
+        margin-left: 10px;
+    }
+
+    .answer{
+        width: 100%;
+        font-size: 24px;
+        margin-left: 10px;
+        margin-right: 3px;
+        line-height: 40x;
+    }
+    }
+
+td,th{
+    border: white solid 3px;
+}
+
+th{
+    color: salmon;
 }
