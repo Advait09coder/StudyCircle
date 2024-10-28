@@ -112,6 +112,7 @@ body{
 
 #Mathematics{
     background-color: rgb(17 94 89);
+    width: 100%;
 }
 
 #Science{
@@ -119,6 +120,7 @@ body{
     margin-top: 100px;
     text-align: center;
     background-color: #232d3f;
+    width: 100%;
 }
 #SST{
     color: #f0ece1 !important;
